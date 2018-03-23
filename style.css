@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* -------------------------------- */
+/* Global Styles */
+/* -------------------------------- */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+}
+
+div.main-content-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+div.inner-content-wrapper {
+    max-width: 1000px;
+    margin: 0 30px;
+}
+
+div.header-content-wrapper {
+    max-width: 1000px;
+    margin: 30px;
+}
+
+/* -------------------------------- */
+/* Navigation Styles */
+/* -------------------------------- */
+
+div.nav-content-wrapper {
+    background-color: rgb(216, 216, 216);
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    max-width: 1000px;
+}
+
+nav ul li {
+    display: inline-block;
+    max-width: 100%;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: orange;
+    color: white;
+}
+
+
+/* -------------------------------- */
+/* Content Styles */
+/* -------------------------------- */
+
+div.content {
+    float: right;
+    width: 85%;
+    margin: 10% 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.7em;
+}
+
+hr {
+    width: 100%;
+}
+
+/* -------------------------------- */
+/* Image Styles */
+/* -------------------------------- */
+
+figure.logo {
+    margin: 0;
+}
+
+figure.logo img {
+    width: 12%;
+    height: auto;
+    float: left;
+    padding-top: 10%;
+    padding-right: 3%;
+}
+
+/* -------------------------------- */
+/* Footer Styles */
+/* -------------------------------- */
+
+div.footer-outer-content-wrapper {
+    clear: both;
+    background-color: rgb(216, 216, 216);
+    width: 100%;
+    padding: 3% 0;
+    margin: 0;
+    position: sticky;
+}
+
+div.footer-content-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;   
+}
+
+div.footer-inner-content-wrapper {
+    max-width: 1000px;
+    margin: 0 30px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.8em;
+}
+
+footer a {
+    color: gray;
+}
+
+footer a:hover {
+    color: orange;
+}
+
+@media screen and (max-width: 870px) {
+
+    div.nav-inner-content-wrapper {
+        margin: 0;
+    }
+
+    nav ul li {
+        display: block;
+        float: none;
+    }
+}
