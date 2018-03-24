@@ -75,7 +75,7 @@ div.header-content-wrapper {
 /* Navigation Styles */
 /* -------------------------------- */
 
-div.nav-content-wrapper {
+#nav {
     background-color: rgb(216, 216, 216);
     width: 100%;
     padding: 0;
@@ -151,11 +151,11 @@ hr {
 /* Image Styles */
 /* -------------------------------- */
 
-figure.logo {
+.logo {
     margin: 0;
 }
 
-figure.logo img {
+.logo img {
     width: 12%;
     height: auto;
     float: left;
