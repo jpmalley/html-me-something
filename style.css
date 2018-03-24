@@ -59,19 +59,16 @@ body {
     margin: 0;
 }
 
-div.main-content-wrapper {
+main {
     max-width: 1000px;
     margin: 0 auto;
-}
-
-div.inner-content-wrapper {
-    max-width: 1000px;
-    margin: 0 30px;
+    padding: 0 30px;
 }
 
 div.header-content-wrapper {
     max-width: 1000px;
-    margin: 30px;
+    margin: 30px auto;
+    padding: 0 30px;
 }
 
 /* -------------------------------- */
@@ -169,24 +166,19 @@ figure.logo img {
 /* Footer Styles */
 /* -------------------------------- */
 
-div.footer-outer-content-wrapper {
+footer {
     clear: both;
     background-color: rgb(216, 216, 216);
     width: 100%;
     padding: 3% 0;
     margin: 0;
     position: sticky;
-}
-
-div.footer-content-wrapper {
-    max-width: 1000px;
-    margin: 0 auto;   
+    text-align: center; 
 }
 
 div.footer-inner-content-wrapper {
     max-width: 1000px;
-    margin: 0 30px;
-    text-align: center;
+    margin: 0 auto;
 }
 
 footer p {
